@@ -8,7 +8,7 @@ Scene.Preloader.prototype = {
 	preload: function () {
 		this.width = 400;
 		this.height = 400;
-		this.imgPath = './source/media/js/games/left/assets/img/';
+		this.imgPath = 'games/left/assets/img/';
 
 		this.game.stage.backgroundColor = '#2f2f2f';
 		this.load.image('logo', this.imgPath + 'logo.png');

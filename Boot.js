@@ -7,8 +7,6 @@ Scene.Boot = function (game){
 
 Scene.Boot.prototype = {
 	preload: function(){		
-		//this.load.image('loading', 'fire/assets/loading.png');
-		//this.load.image('splash', 'fire/assets/splash.png');
 		
 	},
 	create: function(){
